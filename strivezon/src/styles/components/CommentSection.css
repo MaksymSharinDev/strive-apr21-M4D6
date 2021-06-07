@@ -1,0 +1,77 @@
+
+.commentSection * {
+    transition: all 300ms ease
+}
+.commentSection button {
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 0.75em;
+    display: inline-block;
+    text-decoration: none;
+}
+.commentSection button:hover {
+    cursor: pointer;
+}
+.commentSection button:focus {
+    text-decoration: none;
+    outline: none;
+}
+.commentSection .comment-box {
+    max-width: 37.5rem;
+    color: #fff;
+    background-color: #909090;
+    border-radius: 0.875rem;
+    padding: 0.2rem 1rem 2rem;
+}
+.commentSection .comment-form {
+    background-color: #fff;
+    border-radius: 0.25rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+.commentSection .comment-form-fields {
+    margin-bottom: 0.25rem;
+}
+.commentSection .comment-form-fields input, .comment-form-fields textarea {
+    border: none;
+    border-bottom: 1px solid #404040;
+    font-size: 0.85rem;
+    padding: 0.25rem 0;
+    width: 99%;
+}
+.commentSection .comment-form-fields input:focus, .comment-form-fields textarea:focus {
+    border-bottom-color: #00BDFC;
+    outline: none;
+}
+.commentSection .comment-form-fields textarea {
+    font-style: italic;
+}
+.commentSection .comment-count {
+    color: #404040;
+}
+#comment-reveal {
+    float: right;
+    background-color: #00BDFC;
+    color: #fff;
+}
+.commentSection .comment {
+    border-top: 0.125rem solid #404040;
+}
+.commentSection .comment-body {
+    font-style: italic;
+    margin-left: 1rem;
+}
+.commentSection .comment-footer {
+    margin-bottom: 1rem;
+}
+.commentSection .comment-footer-delete {
+    padding: 0.2rem 0;
+    color: #404040;
+    text-decoration: none;
+}
+.commentSection .comment-footer-delete:hover {
+    color: #00BDFC;
+    font-weight: bold;
+}

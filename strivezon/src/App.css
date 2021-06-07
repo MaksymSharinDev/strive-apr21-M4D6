@@ -1,0 +1,8 @@
+img{
+  object-fit: contain;
+  width: 200px;
+  height: 400px;
+}
+div[class*="col-"]{
+  transition: all 700ms ease;
+}
